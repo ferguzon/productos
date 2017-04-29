@@ -97,7 +97,7 @@ namespace Datos
 
         } // fin del método obtenerProductoDatos
 
-        public void bajaProductoDatos(int id)
+        public void eliminarProductoDatos(int id)
         {
 
             // Este método busca un producto en la base de datos con base en su
@@ -122,7 +122,7 @@ namespace Datos
                 throw err;
             }
 
-        } // fin del método bajaProductoDatos
+        } // fin del método eliminarProductoDatos
 
-    }
+    } // fin de la clase productoDatos
 }
