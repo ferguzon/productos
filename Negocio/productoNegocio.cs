@@ -82,5 +82,32 @@ namespace Negocio
 
         } // fin del método eliminarProductoNegocio
 
+        public Entidad.Productos obtenerProductoNegocio(int id)
+        {
+
+            Datos.productoDatos dc = null;
+            Entidad.Productos producto = null;
+
+            try
+            {
+
+                // Este método invoca al método obtenerProductoDatos de la capa
+                // de datos para buscar un producto en la base de datos
+
+                dc = new Datos.productoDatos();
+                producto = dc.obtenerProductoDatos(id);
+
+                return producto;
+
+            }
+            catch (Exception err)
+            {
+
+                throw err; 
+            }
+
+
+        }
+
     } // fin de la clase productoNegocio
 }

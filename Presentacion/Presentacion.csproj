@@ -179,6 +179,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="wfProductoActualizar.aspx" />
+    <Content Include="wfProductoEliminar.aspx" />
+    <Content Include="wfProductoInsertar.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -385,9 +388,40 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="wfProductoActualizar.aspx.cs">
+      <DependentUpon>wfProductoActualizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoActualizar.aspx.designer.cs">
+      <DependentUpon>wfProductoActualizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfProductoEliminar.aspx.cs">
+      <DependentUpon>wfProductoEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoEliminar.aspx.designer.cs">
+      <DependentUpon>wfProductoEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfProductoInsertar.aspx.cs">
+      <DependentUpon>wfProductoInsertar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfProductoInsertar.aspx.designer.cs">
+      <DependentUpon>wfProductoInsertar.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidad\Entidad.csproj">
+      <Project>{ab57a3cd-ca7d-4038-b6c2-333b596a124f}</Project>
+      <Name>Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{dfeb7180-54d0-47f6-8413-f80659d04f87}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

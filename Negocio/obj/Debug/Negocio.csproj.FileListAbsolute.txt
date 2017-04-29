@@ -1,0 +1,16 @@
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Negocio.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Datos.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Entidad.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Datos.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\Entidad.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\obj\Debug\Negocio.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Negocio\obj\Debug\Negocio.pdb

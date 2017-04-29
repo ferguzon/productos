@@ -1,0 +1,12 @@
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\Entidad.dll.config
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\Entidad.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\EntityFramework.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\EntityFramework.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\obj\Debug\Entidad.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Entidad\obj\Debug\Entidad.pdb

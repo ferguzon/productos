@@ -1,0 +1,14 @@
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\Datos.dll.config
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\Datos.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\Datos.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\Entidad.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\Entidad.pdb
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\obj\Debug\Datos.dll
+C:\Users\Sistemas\Desktop\Productos\Productos\Datos\obj\Debug\Datos.pdb

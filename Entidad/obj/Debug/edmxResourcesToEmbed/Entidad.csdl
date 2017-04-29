@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="evaluacionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Descripcion" />
+      <PropertyRef Name="Existencia" />
+      <PropertyRef Name="PrecioUnitario" />
+      <PropertyRef Name="FechaProceso" />
+      <PropertyRef Name="UsuarioProceso" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="80" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Existencia" Type="Int32" Nullable="false" />
+    <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="FechaProceso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UsuarioProceso" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="evaluacionEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Productos" EntityType="Self.Productos" />
+  </EntityContainer>
+</Schema>
