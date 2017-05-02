@@ -57,6 +57,9 @@ namespace Presentacion
 
                 dc.eliminarProductoNegocio(int.Parse(txtCodigoProducto.Text));
 
+                lblResultado.Text = "Se eliminó correctamente el producto de la base de datos.";
+                limpiarFormulario();
+
             }
             catch (Exception)
             {
@@ -66,5 +69,14 @@ namespace Presentacion
             }
             
         }
-    }
+
+        public void limpiarFormulario()
+        {
+
+            txtCodigoProducto.Text = string.Empty;
+            lblDescripcion.Text = string.Empty;
+
+        } // fin del método limpiarFormulario
+
+    } // fin de la clase wfProductoEliminar
 }

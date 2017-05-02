@@ -38,7 +38,8 @@
             <td style="width: 220px">&nbsp;</td>
             <td>
                 <asp:Button ID="btnConfirmar" runat="server" OnClick="btnConfirmar_Click" Text="Confirmar" />
-                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" />
+                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="btnCancelar_Click" />
+            &nbsp;<asp:Label ID="lblResultado" runat="server" Font-Bold="True" ForeColor="#0066CC"></asp:Label>
             </td>
         </tr>
     </table>

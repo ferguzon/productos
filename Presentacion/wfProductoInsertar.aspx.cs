@@ -34,14 +34,36 @@ namespace Presentacion
 
                 dc.insertarProductoNegocio(producto);
 
+                lblResultado.Text = "La información se guardó correctamente.";
+                limpiarFormulario();
+
             }
             catch (Exception)
             {
 
                 cvErrores.IsValid = false;
                 cvErrores.ErrorMessage = "Ocurrió un error al guardar. Por favor revise la información.";
+
             }
 
+            
         }
-    }
+
+        public void limpiarFormulario()
+        {
+
+            txtDescripcion.Text = string.Empty;
+            txtExistencia.Text = string.Empty;
+            txtPrecio.Text = string.Empty;
+
+        } // fin del método limpiarFormulario
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+            limpiarFormulario();
+
+        }
+    } // clase wfProductoInsertar
+
 }

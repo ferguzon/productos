@@ -5,18 +5,11 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="evaluacionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'evaluacion.dbo.Productos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="Productos">
           <Key>
             <PropertyRef Name="Id" />
-            <PropertyRef Name="Descripcion" />
-            <PropertyRef Name="Existencia" />
-            <PropertyRef Name="PrecioUnitario" />
-            <PropertyRef Name="FechaProceso" />
-            <PropertyRef Name="UsuarioProceso" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Descripcion" Type="nchar" MaxLength="80" Nullable="false" />
           <Property Name="Existencia" Type="int" Nullable="false" />
           <Property Name="PrecioUnitario" Type="decimal" Precision="10" Scale="2" Nullable="false" />
@@ -24,16 +17,7 @@ advertencia 6002: La tabla o vista 'evaluacion.dbo.Productos' no tiene definida 
           <Property Name="UsuarioProceso" Type="int" Nullable="false" />
         </EntityType>
         <EntityContainer Name="evaluacionModelStoreContainer">
-          <EntitySet Name="Productos" EntityType="Self.Productos" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Productos].[Id] AS [Id], 
-    [Productos].[Descripcion] AS [Descripcion], 
-    [Productos].[Existencia] AS [Existencia], 
-    [Productos].[PrecioUnitario] AS [PrecioUnitario], 
-    [Productos].[FechaProceso] AS [FechaProceso], 
-    [Productos].[UsuarioProceso] AS [UsuarioProceso]
-    FROM [dbo].[Productos] AS [Productos]</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
@@ -43,13 +27,8 @@ advertencia 6002: La tabla o vista 'evaluacion.dbo.Productos' no tiene definida 
         <EntityType Name="Productos">
           <Key>
             <PropertyRef Name="Id" />
-            <PropertyRef Name="Descripcion" />
-            <PropertyRef Name="Existencia" />
-            <PropertyRef Name="PrecioUnitario" />
-            <PropertyRef Name="FechaProceso" />
-            <PropertyRef Name="UsuarioProceso" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Descripcion" Type="String" MaxLength="80" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Existencia" Type="Int32" Nullable="false" />
           <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />

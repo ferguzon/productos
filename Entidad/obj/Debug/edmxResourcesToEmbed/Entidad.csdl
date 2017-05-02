@@ -3,13 +3,8 @@
   <EntityType Name="Productos">
     <Key>
       <PropertyRef Name="Id" />
-      <PropertyRef Name="Descripcion" />
-      <PropertyRef Name="Existencia" />
-      <PropertyRef Name="PrecioUnitario" />
-      <PropertyRef Name="FechaProceso" />
-      <PropertyRef Name="UsuarioProceso" />
     </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Descripcion" Type="String" MaxLength="80" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="Existencia" Type="Int32" Nullable="false" />
     <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />

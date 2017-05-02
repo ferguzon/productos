@@ -28,11 +28,19 @@ namespace Presentacion
                 dc = new Negocio.productoNegocio();
                 producto = new Entidad.Productos();
 
-                producto.Descripcion = txtDescripcion.Text;
+                producto.Descripcion = txtDescripcion.Text.Trim().ToUpper();
                 producto.Existencia = int.Parse(txtExistencia.Text);
                 producto.PrecioUnitario = decimal.Parse(txtPrecioUnitario.Text);
+                producto.Id = int.Parse(txtCodigoProducto.Text);
+                producto.FechaProceso = DateTime.Now;
 
                 dc.modificarProductoNegocio(producto);
+
+                lblResultado.Text = "La información se actualizó exitosamente.";
+
+                // Limpiamos el formulario
+
+                limpiarFormulario();
 
             }
             catch (Exception)
@@ -60,11 +68,10 @@ namespace Presentacion
                 dc = new Negocio.productoNegocio();
                 producto = dc.obtenerProductoNegocio(int.Parse(txtCodigoProducto.Text));
 
-                txtDescripcion.Text = producto.Descripcion;
+                txtDescripcion.Text = producto.Descripcion.Trim().ToUpper();
                 txtExistencia.Text = producto.Existencia.ToString();
                 txtPrecioUnitario.Text = producto.PrecioUnitario.ToString();
-
-
+                                
             }
             catch (Exception)
             {
@@ -75,5 +82,22 @@ namespace Presentacion
             }
 
         }
-    }
+
+        public void limpiarFormulario()
+        {
+
+            txtCodigoProducto.Text = string.Empty;
+            txtDescripcion.Text = string.Empty;
+            txtExistencia.Text = string.Empty;
+            txtPrecioUnitario.Text = string.Empty;
+
+        } // fin del método limpiarFormulario
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+            limpiarFormulario();
+
+        }
+    } // fin de la clase wfProductoActualizar
 }

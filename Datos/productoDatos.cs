@@ -52,6 +52,7 @@ namespace Datos
                 // Se actualiza cada dato del producto en la base de datos con la información
                 // recibida de la capa de negocio
 
+                prod.Id = producto.Id;
                 prod.Descripcion = producto.Descripcion;
                 prod.Existencia = producto.Existencia;
                 prod.PrecioUnitario = producto.PrecioUnitario;
